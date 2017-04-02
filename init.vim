@@ -23,5 +23,6 @@ au FileType html setl ts=2 sw=2 sts=2
 
 Plug 'scrooloose/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
