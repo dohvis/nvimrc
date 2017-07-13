@@ -4,10 +4,10 @@ My neovim conf
 First at all, [Install neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
 ```sh
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-`mv init.vim ~/.config/nvim/`
+`cp init.vim ~/.config/nvim/`
 
 Enter nvim, and `:PlugInstall`
